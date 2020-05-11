@@ -1,0 +1,40 @@
+<!-- To create a an html page to explain the use of various predefined function in Strings in JavaScript -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>LAB7</title>
+    </head>
+    <body>
+        <h1>Predefined functions in Strings in JavaScript.</h1>
+        <p>The length property returns the length of a string: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"</p>
+        <p id="demo1"></p>
+        <p>The indexOf() method returns the index of (the position of) the first occurrence of a specified text("locate") in a string: "Please locate where 'locate' occurs!"</p>
+        <p id="demo2"></p>
+        <p>The lastIndexOf() method returns the index of the last occurrence of a specified text("locate") in a string: "Please locate where 'locate' occurs!"</p>
+        <p id="demo3"></p>
+        <p>The search() method searches a string for a specified value("locate") and returns the position of the match in string: "Please locate where 'locate' occurs!"</p>
+        <p id="demo4"></p>
+        <p>slice() extracts a part of a string and returns the extracted part in a new string.
+            The method takes 2 parameters: the start position, and the end position (end not included).
+            This example slices out a portion of a string from position 7 to position 12 (13-1),where string is: "Apple, Banana, Kiwi"
+        </p>
+        <p id="demo5"></p>
+        <p>The trim() method removes whitespace from both sides of a string: " &emsp; Hello World! &emsp; " ;</p>
+        <p id="demo6"></p>
+
+    </body>
+    <script type="text/javascript">
+        var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        document.getElementById("demo1").innerHTML = txt.length;
+        var str1 = "Please locate where 'locate' occurs!";
+        var str2 = "Apple, Banana, Kiwi";
+        var str3 = "       Hello World!        ";
+        document.getElementById("demo2").innerHTML = str1.indexOf("locate");
+        document.getElementById("demo3").innerHTML = str1.lastIndexOf("locate");
+        document.getElementById("demo4").innerHTML = str1.search("locate");
+        document.getElementById("demo5").innerHTML = str2.slice(7, 13);
+        document.getElementById("demo6").innerHTML = str3.trim();
+    </script>
+</html>

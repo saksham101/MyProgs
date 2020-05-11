@@ -1,0 +1,36 @@
+<!-- To create a an html page to explain the use of various predefined function in Arrays in JavaScript -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>LAB8</title>
+    </head>
+    <body>
+        <h1>Predefined functions in Arrays in JavaScript.</h1>
+        <p>The JavaScript method toString() converts an array to a string of (comma separated) array values: ["Banana", "Orange", "Apple", "Mango"]</p>
+        <p id="demo1"></p>
+        <p>The pop() method removes the last element from an array: ["Banana", "Orange", "Apple", "Mango"]</p>
+        <p id="demo2"></p>
+        <p>The push() method adds a new element to an array (at the end): ["Banana", "Orange", "Apple", "Mango"]</p>
+        <p id="demo3"></p>
+        <p id="demo31"></p>
+        <p>The shift() method removes the first array element and "shifts" all other elements to a lower index, returns the string that was "shifted out": ["Banana", "Orange", "Apple", "Mango","Kiwi"]</p>
+        <p id="demo4"></p>
+        <p id="demo41"></p>
+        <p>The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements, & returns the new array length: ["Orange","Apple","Kiwi"] </p>
+        <p id="demo5"></p>
+        <p id="demo51"></p>
+    </body>
+    <script type="text/javascript">
+            var arr1 = ["Banana", "Orange", "Apple", "Mango"];
+            document.getElementById("demo1").innerHTML = arr1.toString();
+            document.getElementById("demo2").innerHTML = arr1.pop();
+            document.getElementById("demo3").innerHTML = arr1.push("Kiwi");
+            document.getElementById("demo31").innerHTML = arr1;
+            document.getElementById("demo4").innerHTML = arr1.shift();
+            document.getElementById("demo41").innerHTML = arr1;
+            document.getElementById("demo5").innerHTML = arr1.unshift("Lemon");
+            document.getElementById("demo51").innerHTML = arr1;
+    </script>
+</html>
