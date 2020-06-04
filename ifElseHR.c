@@ -1,4 +1,4 @@
-*/
+/*
 Task
 
 Given a positive integer denoting n, do the following:
@@ -32,7 +32,7 @@ Sample Output #02
 
 Greater than 9
 
-/*
+*/
 // SOLUTION
 #include<stdio.h>
 #include<stdlib.h>
