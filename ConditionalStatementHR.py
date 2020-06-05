@@ -1,4 +1,4 @@
-/*
+"""
 Task
 Given an integer,n , perform the following conditional actions:
 
@@ -28,7 +28,7 @@ Sample Input 1
 Sample Output 1
 
 Not Weird
-*/
+"""
 # SOLUTION
 #!/bin/python3
 if __name__ == '__main__':
