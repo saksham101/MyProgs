@@ -61,13 +61,13 @@ In the second test case, there are  prisoners,  candies and they are passed out 
 """
 # SOLUTION
 def saveThePrisoner(n, m, s): 
-    if m<n:
-        chair = s+m-1
+    if s + m < n:
+        return(s + m - 1)
     else:
-        temp = m%n
-        chair = s+temp-1
-    return chair
-
+        if (s+m - 1) % n == 0:
+            return(n)
+        else:
+            return((s+m - 1) % n)
 
 t = int(input())
 for t_itr in range(t):
@@ -77,3 +77,4 @@ for t_itr in range(t):
     s = int(nms[2])
     result = saveThePrisoner(n, m, s)
     print(result)
+    
