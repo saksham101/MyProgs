@@ -11,7 +11,9 @@ The next line contains n space-separated integers.
 
 Output Format
 
-Print in a single line the sum of the integers in the array.
+Print in a single line the sum of the integers in the array.   
+
+as given.
 
 Sample Input 0
 
