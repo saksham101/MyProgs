@@ -12,14 +12,6 @@ The second line of each test case contains N space separated integers - S1, S2, 
 Output:
 For each testcase, output the total number of strings Chef has to skip over while playing his favourite song.
 
-Constraints
-1≤T≤10
-2≤N≤105
-1≤Si≤106
-For each valid i, Si≠Si+1
-Subtasks
-30 points : for each valid i, Si<Si+1
-70 points : No additional constraints
 Sample Input:
 2
 6
