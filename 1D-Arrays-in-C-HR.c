@@ -31,7 +31,6 @@ Sample Output 1
 76
 */
 
-
 // SOLUTION
 #include <stdio.h>
 #include <string.h>
