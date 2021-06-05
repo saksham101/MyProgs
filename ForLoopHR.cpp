@@ -14,7 +14,6 @@ for(int i = 0; i < 10; i++) {
     ...
 }
 Input Format
-
 You will be given two positive integers,  and  (), separated by a newline.
 
 Output Format
