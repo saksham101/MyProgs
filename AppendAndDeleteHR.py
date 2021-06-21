@@ -22,8 +22,6 @@ The first line contains a string , the initial string.
 The second line contains a string , the desired final string.
 The third line contains an integer , the number of operations.
 
-Constraints
-
  and  consist of lowercase English alphabetic letters, .
 Output Format
 
